@@ -30,7 +30,7 @@ const User = sequelize.define(
     freezeTableName: true,
     defaultScope: {
       attributes: {
-        include: ["kyc_status", "dob", "phone", "bvn"],
+        include: [],
         excludes: [],
       },
       raw: false,
