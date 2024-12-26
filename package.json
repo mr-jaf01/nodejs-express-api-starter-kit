@@ -8,11 +8,11 @@
   "@validator" : "app/http/validations"
   },
 
-  "name": "ravenvision",
+  "name": "nodejs-express-api-starter-kit",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
